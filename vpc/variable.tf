@@ -1,4 +1,4 @@
-variable "vpc_cidr" {.
+variable "vpc_cidr" {
     description = "cidr of the vpc"
     type = string
     default = "10.1.0.0/16"
